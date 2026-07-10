@@ -16,6 +16,7 @@ This demonstrates a core HEOR principle: **clinical effectiveness does not guara
 - **Treatment effect:** HR 0.70 (95% CI 0.62–0.78) for HF hospitalization, from an independent meta-analysis of 4 cardiovascular outcome trials
 - **Deterministic sensitivity analysis:** one-way on treatment effect (across its 95% CI) and on drug price (threshold analysis)
 - **Probabilistic sensitivity analysis:** 5,000 Monte Carlo simulations with Beta (probabilities, utilities), Gamma (costs), and log-normal (hazard ratio) distributions; cost-effectiveness plane and acceptability curve (CEAC)
+- **Cross-validation:** the base-case model was independently rebuilt in `heemod`, an established R package for health economic modeling. Reconciling the two implementations required accounting for differences in half-cycle correction and discount-timing conventions — both approaches converged on the same substantive conclusion.
 - **Reporting:** fully reproducible Quarto document — every figure and statistic, including the PSA, regenerates from code
 
 ## Files
