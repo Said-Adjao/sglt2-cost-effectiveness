@@ -32,6 +32,7 @@ Simplified three-state structure with illustrative inputs (a definitive analysis
 ## Companion work
 
 The treatment-effect input was synthesized in a separate meta-analysis: [SGLT2i vs placebo meta-analysis](https://github.com/said-adjao/sglt2-hf-meta-analysis). Together these form an evidence-to-economics workflow.
+sglt2_budget_impact_analysis
 
 ## Tools
 
